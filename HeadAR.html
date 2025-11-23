@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Vitor Santos</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/piccircle.png" type="image/x-icon">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+	    /* Add some basic styling to the dropdown */
+		    .dropdown {
+		      position: relative;
+		      display: inline-block;
+		    }
+
+		    .dropdown-content {
+		      display: none;
+		      position: absolute;
+		      background-color: #f9f9f9;
+		      min-width: 120px; /* Reduced minimum width */
+		      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+		      z-index: 1;
+		    }
+
+		    .dropdown-content a {
+		      color: #333; /* Change text color */
+		      padding: 12px 16px;
+		      display: block;
+		      text-decoration: none;
+		    }
+
+		    .dropdown-content a:hover {
+		      background-color: #ddd; /* Change background color on hover */
+		    }
+
+		    .dropdown:hover .dropdown-content {
+		      display: block;
+		    }
+	  	</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Vitor Santos</a></h1>
+						<nav id="nav">
+							<ul>
+						    <li class="dropdown">
+						      <a href="javascript:void(0);" class="dropbtn">Projects</a>
+						      <div class="dropdown-content">
+								<a href="HeadAR.html">AR Robot Application</a>
+								<a href="3DIndustry.html">3D Modelling</a>
+								<a href="Craftobot.html">Craftobot VR</a>
+								<a href="Muguli.html">Muguli VR</a>
+						      	<a href="ScrapHeads.html">Scrap Heads</a>
+						      	<a href="OtherProjects.html">3D Character/Environment</a>
+						      	<a href="audiovisual.html">Audiovisual</a>
+						      </div>
+						    </li>
+						    <li><a href="mailto:vitor.hugo.tsantos@gmail.com?subject = Feedback&body = Message">Contact Me</a></li>
+						  </ul>	
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Human-robot collaborative workspaces supported by AR head-mounted displays</h2>
+							<p>Developer, 3D Modeler</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<h3>Short Description</h3>
+								<p>This work was developed as part of my master’s thesis and focused on creating an AR application that supports safer human robot collaboration. 
+								I designed and implemented an AR system that connects a HoloLens to a UR robotic arm, predicts the robot’s motion in real time and displays a ghost 
+								arm preview of planned trajectories. The application was developed using C# in Unity, URScript for robot control and TCP/IP networking for real time 
+								communication with both the simulator and the physical robot.</p>
+								<video 
+									src="images/AE_2.mp4" 
+									autoplay 
+									loop 
+									playsinline 
+									controls
+									style="width:100%; height:auto; margin-top:20px; border-radius:10px; outline:none;" 
+								></video>
+								<br><br><p>I built a waypoint editor in AR, implemented spatial alignment and tracking logic and added 
+								custom colliders and safety logic to handle dynamic collision avoidance based on the user’s hands and head. The system also includes a pause and resume 
+								mechanism that reacts to proximity and spatial tracking events.</p>
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-4"><span class="image fit"><img src="images/Dynamic_V1.png" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/Dynamic_V2.png" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/Unity_WaypointEditor.png" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/Unity_RobotMenu.png" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/TestMovePanel.png" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/App_StopLink.png" alt="" /></span></div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https:/www.linkedin.com/in/vhtsantos" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https:/www.vhtsantos.github.io" class="icon brands fa-dribbble"><span class="label">Website</span></a></li>
+							<li><a href="mailto:vitor.hugo.tsantos@gmail.com?subject = Feedback&body = Message" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>Vitor Hugo Tavares Santos | Portfolio</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
