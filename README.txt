@@ -1,45 +1,37 @@
-Spectral by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Portfolio Website
+=================
 
+This repository contains the source code for my personal portfolio. It is a customised version of the Spectral theme from HTML5 UP, adapted to present my work in AR, VR, Unity, robotics, 3D modelling, and audiovisual production.
 
-A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
--- except, of course, for how it's put together, specifically:
+The objective of this site is to provide a clear and functional overview of my projects, without unnecessary complexity.
 
-- It's built with components from my Responsive Tools project.
+About the Template
+------------------
 
-- It uses flexbox, which eliminates all kinds of terrible hacks and clunky layout
-  stopgaps (like CSS grid systems).
+The website uses the Spectral base template, which offers:
 
-- It uses Sass* a lot more intelligently, thanks in part to several new mixins
-  and functions I've been working on (as well as a few by @HugoGiraudel).
+• A fully responsive structure built with flexbox  
+• A modular layout based on HTML5 UP’s Responsive Tools  
+• Sass organisation that I adapted and simplified  
+• Pre-styled elements that I repurposed for my own sections
 
-  (* = still entirely optional if you prefer vanilla CSS :)
+All design changes, components, layout modifications, and content are customised by me.
 
-- A ton of other stuff.
+License
+-------
 
-In short, Spectral's the culmination of several new things I'm working on/trying out,
-so please, let me know what you think :)
+The Spectral template is provided by HTML5 UP under the CCA 3.0 license.  
+Original license: https://html5up.net/license
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Credits
+-------
 
-(* = not included)
+Base Template  
+HTML5 UP  
+https://html5up.net
 
-AJ
-aj@lkn.io | @ajlkn
+Original template assets:  
+• Icons: Font Awesome  
+• Libraries: jQuery, Scrollex, Responsive Tools  
 
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+(Note: Unsplash demo images from the original template are not used here.)
